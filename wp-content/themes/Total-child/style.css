@@ -26,3 +26,9 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 
+/* 메인 스타일 */
+.main_title {border-bottom:2px solid #42ae49;border-width:17%;}
+
+
+
+
