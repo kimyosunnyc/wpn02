@@ -27,7 +27,7 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 
 /* 메인 스타일 */
-.main_tit_border {width:17%;border-top:2px solid #42ae49;}
+.main_tit_border {margin:0 auto;text-algin:center;width:10%;border-top:2px solid #42ae49;}
 
 
 
