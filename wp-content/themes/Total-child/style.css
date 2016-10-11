@@ -1,0 +1,57 @@
+/*
+Theme Name: Total Child
+Theme URI: http://totalwptheme.com
+Description: Total WordPress theme example child theme.
+Author: AJ Clarke
+Author URI: http://totalwptheme.com
+Template: Total
+Version: 1.1
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* 전체적용 */
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
+h1, h2, h3, h4, h5, h6{font-weight:bold;padding:0;margin:5px 0;}
+ul, li{list-style:none;margin:0;padding:0;}
+a:link, a:hover, a:active, a:visited {text-decoration:none;}
+
+/* 폰트설정 */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css" );
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@import url("http://cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css"); 
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
+/* 메인 스타일 */
+.main_tit_border {margin:0 auto;text-algin:center;width:7%;border-top:2px solid #42ae49;}
+.main_icon_cont {line-height:1.4em;}
+
+/* 서브 스타일 */
+.boxed-main-layout #wrap #main .container {padding-left:0;padding-right:0;}
+.page-header {margin:0;}
+
+.sub_tit {background:url(/wp-content/uploads/2016/10/sub_title_bg_img.png) top right no-repeat;background-size:400px 150px;}
+.side_menu_tit {padding:50px 0;text-align:center;background:#40ae49;color:#fff;font-size:24px;}
+
+.sidebar-box {padding-bottom:0;}
+#sidebar .widget_nav_menu li a {padding:1.3em 30px 1.3em 0.769em;}
+#sidebar .widget_nav_menu .sub-menu li a {background:#f4f4f4;}
+#sidebar .widget_nav_menu .current_page_item > a, #sidebar .widget_nav_menu .current-menu-item > a {color:#148d1e;}
+
+.cont_tit{background:url(/wp-content/uploads/2016/10/icon_tit.png) left 4px no-repeat;padding-left:25px;background-size:18px 18px;}
+.list-dot{list-style:none;margin:0 !important;padding:0 !important;}
+.list-dot li:before {
+	content: "";
+	margin-right: 6px;
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	background-color: #ff3924;
+	margin-bottom: 2px;
+}
+
+.wpex-vc-column-wrapper {margin-bottom:20px !important;}
