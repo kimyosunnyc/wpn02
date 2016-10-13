@@ -29,6 +29,7 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 /* 메인 스타일 */
 .main_tit_border {margin:0 auto;text-algin:center;width:7%;border-top:2px solid #42ae49;}
 .main_icon_cont {line-height:1.4em;}
+.fa-chevron-left:before, .fa-chevron-right:before {color:#565656;}
 
 /* 서브 스타일 */
 .boxed-main-layout #wrap #main .container {padding-left:0;padding-right:0;}
