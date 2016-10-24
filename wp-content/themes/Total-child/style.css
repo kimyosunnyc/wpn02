@@ -62,12 +62,18 @@ ul.check-list li{margin:0 !important;padding:0 !important;}
 .history_m {font-size:16px;font-weight:500;color:#262626;}
 
 .side_menu_second{padding-left:15px;}
+#team_box .vc_column_container>.vc_column-inner{padding-left:0;padding-right:0;}
+
+
+/* FOOTER */
+.widget-title {padding-left:15px;background:url(/wp-content/uploads/2016/10/footer_tit.jpg) top 4px left no-repeat;}
 
 
 
 /* MOBILE */
 @media all and (max-width: 768px) {
 .side_menu_second{padding-left:0;}
+.boxed-main-layout #wrap #main .container {padding:0 20px;}
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .side_menu_second{padding-left:0;}
