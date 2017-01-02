@@ -11,10 +11,12 @@ Version: 1.1
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
 /* 전체적용 */
-body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic",'Nanum Gothic','나눔고딕', 'NanumGothic', 'Century Gothic',sans-serif !important ; }
+body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic", 'Century Gothic',sans-serif !important; }
 h1, h2, h3, h4, h5, h6{font-weight:bold;padding:0;margin:5px 0;}
 ul, li{list-style:none;margin:0;padding:0;}
 a:link, a:hover, a:active, a:visited {text-decoration:none;}
+
+body {background:url(/wp-content/uploads/2016/12/bg_img_03.jpg) right top no-repeat;background-attachment:fixed;}
 
 /* 폰트설정 */
 @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css" );
@@ -31,11 +33,10 @@ a:link, a:hover, a:active, a:visited {text-decoration:none;}
 .main_icon_cont {line-height:1.4em;}
 .fa-chevron-left:before, .fa-chevron-right:before {color:#565656;}
 
-/* 서브 스타일 */
-.boxed-main-layout #wrap #main .container {padding-left:0;padding-right:0;}
-.page-header {margin:0;}
+#site-header.overlay-header {background:rgba(0,0,0, 0.3);}
 
-.sub_tit {background:url(/wp-content/uploads/2016/10/sub_title_bg_img.png) top right no-repeat;background-size:400px 150px;}
+/* 서브 스타일 */
+.container, .vc_row-fluid.container {border-top:1px solid #ededed;bottom:1px;}
 .side_menu_tit {padding:50px 0;text-align:center;background:#40ae49;color:#fff;font-size:24px;}
 
 .sidebar-box {padding-bottom:0;}
@@ -69,6 +70,14 @@ ul.check-list li{margin:0 !important;padding:0 !important;}
 #fund_box .fund_cont {padding:20px 30px;}
 #fund_box a:link {color:#6f6f6f;}
 #fund_box a:hover {color:#40ae49;}
+
+.portfolio_tb {width:100%;border-collapse:collapse;border:1px solid #dddddd;}
+.portfolio_tb th, .portfolio_tb td {padding:7px;border:1px solid #dddddd;text-align:center;}
+.portfolio_tb th {background:#f8f8f8;}
+
+
+
+
 
 /* FOOTER */
 .widget-title {padding-left:15px;background:url(/wp-content/uploads/2016/10/footer_tit.jpg) top 4px left no-repeat;}
