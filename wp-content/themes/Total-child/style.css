@@ -21,7 +21,7 @@ Version: 1.1
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 
-body, h1, h2, h3, h4, h5, h6, li, p { font-family:"nanumbarungothic","nanumbarungothic", 'Century Gothic',sans-serif !important; }
+body, h1, h2, h3, h4, h5, h6, li, p {font-family:'nanumbarungothic',Helvetica,AppleGothic,Sans-serif !important;}
 h1, h2, h3, h4, h5, h6{font-weight:bold;padding:0;margin:5px 0;}
 ul, li{list-style:none;margin:0;padding:0;}
 a:link, a:hover, a:active, a:visited {text-decoration:none;}
@@ -44,7 +44,7 @@ body {background:url(/wp-content/uploads/2016/12/bg_img_03.jpg) right top no-rep
 #sidebar .widget_nav_menu .sub-menu li a {background:#f4f4f4;}
 #sidebar .widget_nav_menu .current_page_item > a, #sidebar .widget_nav_menu .current-menu-item > a {color:#148d1e;}
 
-.cont_tit{background:url(/wp-content/uploads/2016/10/icon_tit.png) left 4px no-repeat;padding-left:25px;background-size:18px 18px;font-family:"nanumbarungothic","nanumbarungothic", 'Century Gothic',sans-serif !important;}
+.cont_tit{background:url(/wp-content/uploads/2016/10/icon_tit.png) left 4px no-repeat;padding-left:25px;background-size:18px 18px;font-family:"nanumbarungothic","nanumbarungothic" !important;}
 ul.list-dot{list-style:none;margin:0 !important;padding:0 !important;}
 ul.list-dot li:before {
 	content: "";
